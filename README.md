@@ -10,7 +10,7 @@ Eingabe Koordinaten in LV95 und output als WGS84
 
 Eingabe Koordinaten in WGS84 und Output als LV95
 
--Beispiel: 47, 8 --> 1'200'000 , 2'600'000 (als Näherung)
+- Beispiel: 47, 8 --> 1'200'000 , 2'600'000 (als Näherung)
 
 ### Lokale Installation
 
