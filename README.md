@@ -7,8 +7,10 @@ Die Einbindung erfolgte gemäss Dokumentation auf: https://www.swisstopo.admin.c
 Eingabe Koordinaten in LV95 und output als WGS84
 
 - Beispiel: 1'200'000 , 2'600'000 --> 47, 7 (als Näherung)
-  Eingabe Koordinaten in WGS84 und Output als LV95
-  -Beispiel: 47, 8 --> 1'200'000 , 2'600'000 (als Näherung)
+
+Eingabe Koordinaten in WGS84 und Output als LV95
+
+-Beispiel: 47, 8 --> 1'200'000 , 2'600'000 (als Näherung)
 
 ### Lokale Installation
 
