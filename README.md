@@ -1,43 +1,24 @@
-# React Vorlage für Modul 3050 WID
+# REFRAME Dienst der Swisstopo
 
-- "template repository" mit Startercode für _React_ **SPA** (_Single Page App_) Projekte
-- basiert auf [_Vite+React+JS_](https://vite.dev/guide/) Vorlage
-- die ursprüngliche Vorlage wurde auf das Minimum reduziert
+Die Einbindung erfolgte gemäss Dokumentation auf: https://www.swisstopo.admin.ch/en/rest-api-geoservices-reframe-web
 
 ## Verwendung
 
-### 1.Forken
+Eingabe Koordinaten in LV95 und output als WGS84
 
-- dieses Repo forken (eine Kopie wird in dem persönlichem GitHub Konto angelegt)
+- Beispiel: 1'200'000 , 2'600'000 --> 47, 7 (als Näherung)
+  Eingabe Koordinaten in WGS84 und Output als LV95
+  -Beispiel: 47, 8 --> 1'200'000 , 2'600'000 (als Näherung)
 
-<img src="public/image.png" width=200/>
+### Lokale Installation
 
-### 2. Neues Repository erstellen
-
-- für neuen Projekte einfach die "Use this template" Funktion von GitHub verwenden:
-  ![alt text](public/image-1.png)
-
-### 3. Installieren
-
-1. Neues Projekt Repository in ein gewünschtes lokate Verzeichnis klonen:
-
-```sh
-git clone <repo-url>
-```
-
-2. In der Projektordner wechseln:
-
-```sh
-cd <repo-name>
-```
-
-3. `npm` Abhängigkeiten installieren:
+1. `npm` Abhängigkeiten installieren:
 
 ```sh
 npm install
 ```
 
-4. dev-Server starten:
+2. dev-Server starten:
 
 ```sh
 npm run dev

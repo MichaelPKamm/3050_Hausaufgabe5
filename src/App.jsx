@@ -1,7 +1,11 @@
-import Typography from "@mui/material/Typography";
+import UI from "./UI";
 
 function App() {
-  return <Typography variant="h3">Hello React + MUI!</Typography>;
+  return (
+    <div>
+      <UI />
+    </div>
+  );
 }
 
 export default App;
